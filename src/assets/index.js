@@ -32,6 +32,14 @@ import workoutWhite from "./featured/workout-white.png";
 import yogaRed from "./featured/yoga-red.png";
 import yogaWhite from "./featured/yoga-white.png";
 import ctaBg from "./featured/cta-bg.png";
+// choose us
+import benchPress from "./chooseus/bench-press.png";
+import bottleWater from "./chooseus/bottle-of-water.png";
+import chooseBg from "./chooseus/choose-bg.jpg";
+import gymBag from "./chooseus/gym-bag.png";
+import chooseMainImg from "./chooseus/main-img.png";
+import playBtn from "./chooseus/play.png";
+import training from "./chooseus/training.png";
 
 export {
   logoWhite,
@@ -66,4 +74,11 @@ export {
   yogaRed,
   yogaWhite,
   ctaBg,
+  benchPress,
+  bottleWater,
+  chooseBg,
+  gymBag,
+  chooseMainImg,
+  playBtn,
+  training,
 };
