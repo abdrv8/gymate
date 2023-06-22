@@ -12,6 +12,7 @@ const Hero = () => {
             <p>MAKE YOUR BODY</p>
             <p>FIT & PERFECT</p>
           </div>
+          {/* TODO: turn this a tag into a component since it's been used in different places */}
           <a href="#">
             <span>Our classes</span> <i className="fa-solid fa-arrow-right"></i>
           </a>

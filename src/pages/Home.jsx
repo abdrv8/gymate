@@ -1,4 +1,4 @@
-import { Header, Hero, WhoWeAre } from "../components";
+import { ChooseUs, Featured, Header, Hero, WhoWeAre } from "../components";
 
 const Home = () => {
   return (
@@ -6,6 +6,8 @@ const Home = () => {
       <Header />
       <Hero />
       <WhoWeAre />
+      <Featured />
+      <ChooseUs />
     </div>
   );
 };

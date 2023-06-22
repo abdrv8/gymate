@@ -1,6 +1,71 @@
-import { progression } from "../assets";
-import { workout } from "../assets";
-import { nutritions } from "../assets";
+import {
+  progression,
+  workout,
+  nutritions,
+  cycling,
+  karate,
+  power,
+  meditation,
+  martialArts,
+  workoutMan,
+  bikeRed,
+  bikeWhite,
+  boxerRed,
+  boxerWhite,
+  dumbbellRed,
+  dumbbellWhite,
+  karateRed,
+  karateWhite,
+  workoutRed,
+  workoutWhite,
+  yogaRed,
+  yogaWhite,
+} from "../assets";
+
+export const featuredClasses = [
+  {
+    id: "cycling",
+    title: "Cycling",
+    schedule: "Wednesday: 9:00am - 10:00am",
+    background: cycling,
+    icons: [bikeWhite, bikeRed],
+  },
+  {
+    id: "karate",
+    title: "Karate",
+    schedule: "Friday: 10:00am - 11:00am",
+    background: karate,
+    icons: [karateWhite, karateRed],
+  },
+  {
+    id: "power",
+    title: "Power",
+    schedule: "Saturday: 9:00am - 10:00am",
+    background: power,
+    icons: [dumbbellWhite, dumbbellRed],
+  },
+  {
+    id: "meditation",
+    title: "Meditation",
+    schedule: "Friday: 1:00pm - 2:00pm",
+    background: meditation,
+    icons: [yogaWhite, yogaRed],
+  },
+  {
+    id: "martial arts",
+    title: "Martial Arts",
+    schedule: "Sunday: 6:00pm - 7:00pm",
+    background: martialArts,
+    icons: [boxerWhite, boxerRed],
+  },
+  {
+    id: "workout",
+    title: "Workout",
+    schedule: "Monday: 4:00pm - 5:00pm",
+    background: workoutMan,
+    icons: [workoutWhite, workoutRed],
+  },
+];
 
 export const navLinks = [
   {

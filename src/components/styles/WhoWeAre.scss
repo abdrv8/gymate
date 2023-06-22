@@ -26,7 +26,10 @@
       transition: all 0.5s ease-in;
       &:hover {
         background: url("/info-card-bg.jpg");
-        color: white;
+        h2,
+        p {
+          color: white;
+        }
       }
       h2 {
         font-size: 25px;
