@@ -57,6 +57,13 @@ import logo4 from "./testimonials/logo4.png";
 import logo5 from "./testimonials/logo5.png";
 import quotes from "./testimonials/quotes.png";
 import testimonialShape from "./testimonials/testimonial-shape.svg";
+// gallery
+import bgIcon from "./gallery/bg-icon.png";
+import img1 from "./gallery/img1.jpg";
+import img2 from "./gallery/img2.jpg";
+import img3 from "./gallery/img3.jpg";
+import img4 from "./gallery/img4.jpg";
+import img5 from "./gallery/img5.jpg";
 
 export {
   logoWhite,
@@ -113,4 +120,10 @@ export {
   logo5,
   quotes,
   testimonialShape,
+  bgIcon,
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
 };

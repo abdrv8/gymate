@@ -24,7 +24,35 @@ import {
   trainer2,
   trainer3,
   client1,
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
 } from "../assets";
+
+export const galleryImages = [
+  {
+    id: 1,
+    img: img1,
+  },
+  {
+    id: 2,
+    img: img2,
+  },
+  {
+    id: 3,
+    img: img3,
+  },
+  {
+    id: 4,
+    img: img4,
+  },
+  {
+    id: 5,
+    img: img5,
+  },
+];
 
 export const testimonials = [
   {
