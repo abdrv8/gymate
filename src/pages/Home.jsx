@@ -7,6 +7,7 @@ import {
   Trainers,
   Testimonials,
   Gallery,
+  BmiCalc,
 } from "../components";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Trainers />
       <Testimonials />
       <Gallery />
+      <BmiCalc />
     </div>
   );
 };
