@@ -48,6 +48,15 @@ import trainerBg from "./trainers/trainer-bg.png";
 import trainer1 from "./trainers/trainer1.png";
 import trainer2 from "./trainers/trainer2.png";
 import trainer3 from "./trainers/trainer3.png";
+// testimonials
+import client1 from "./testimonials/client1.jpg";
+import logo1 from "./testimonials/logo1.png";
+import logo2 from "./testimonials/logo2.png";
+import logo3 from "./testimonials/logo3.png";
+import logo4 from "./testimonials/logo4.png";
+import logo5 from "./testimonials/logo5.png";
+import quotes from "./testimonials/quotes.png";
+import testimonialShape from "./testimonials/testimonial-shape.svg";
 
 export {
   logoWhite,
@@ -96,4 +105,12 @@ export {
   trainer1,
   trainer2,
   trainer3,
+  client1,
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
+  quotes,
+  testimonialShape,
 };

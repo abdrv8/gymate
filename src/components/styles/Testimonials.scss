@@ -1,0 +1,113 @@
+.testimonials {
+  height: max-content;
+  width: 100%;
+  padding: 5rem 0;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .title {
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .bg {
+      position: relative;
+      p {
+        position: absolute;
+        top: 6px;
+        left: 50px;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+  .logos {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      width: 160px;
+      transition: all 0.3s ease-in;
+      &:hover {
+        filter: invert(100%);
+      }
+    }
+  }
+  .reviews {
+    border: 10px solid rgba(204, 200, 200, 0.536);
+    height: 400px;
+    padding: 1.7rem;
+    position: relative;
+    .review {
+      display: flex;
+      gap: 2rem;
+      background: var(--primary-color);
+      color: white;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      .image {
+        position: absolute;
+        bottom: -7px;
+        left: 0;
+        width: 100%;
+        height: max-content;
+        img {
+          border-top-right-radius: 250px;
+        }
+      }
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.4rem;
+        padding: 0 2rem;
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        .message {
+          font-style: italic;
+          color: rgba(255, 255, 255, 0.64);
+        }
+        img {
+          width: 70px;
+        }
+      }
+      .shape {
+        position: absolute;
+        bottom: 0;
+        right: 200px;
+      }
+    }
+    .switch {
+      display: flex;
+      position: absolute;
+      bottom: 70px;
+      right: 80px;
+      gap: 10px;
+      div {
+        width: 50px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+        z-index: 2;
+        &:hover {
+          background: var(--secondary-color);
+          color: white;
+        }
+      }
+    }
+  }
+}

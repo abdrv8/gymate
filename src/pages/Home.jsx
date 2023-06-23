@@ -1,5 +1,13 @@
-import { ChooseUs, Featured, Header, Hero, WhoWeAre } from "../components";
-import Trainers from "../components/Trainers";
+import {
+  ChooseUs,
+  Featured,
+  Header,
+  Hero,
+  WhoWeAre,
+  Trainers,
+  Testimonials,
+  Gallery,
+} from "../components";
 
 const Home = () => {
   return (
@@ -10,6 +18,8 @@ const Home = () => {
       <Featured />
       <ChooseUs />
       <Trainers />
+      <Testimonials />
+      <Gallery />
     </div>
   );
 };
