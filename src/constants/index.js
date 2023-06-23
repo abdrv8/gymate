@@ -29,7 +29,52 @@ import {
   img3,
   img4,
   img5,
+  pricingImg1,
+  pricingImg2,
+  pricingImg3,
 } from "../assets";
+
+export const pricingPlans = [
+  {
+    id: 1,
+    title: "Beginner",
+    price: 39,
+    features: [
+      "Free Hand",
+      "Gym Fitness",
+      "Weight Loss",
+      "Personal Trainer",
+      "Cycling",
+    ],
+    img: pricingImg1,
+  },
+  {
+    id: 2,
+    title: "Intermediate",
+    price: 65,
+    features: [
+      "Free Hand",
+      "Gym Fitness",
+      "Weight Loss",
+      "Personal Trainer",
+      "Cycling",
+    ],
+    img: pricingImg2,
+  },
+  {
+    id: 3,
+    title: "Advance",
+    price: 100,
+    features: [
+      "Free Hand",
+      "Gym Fitness",
+      "Weight Loss",
+      "Personal Trainer",
+      "Cycling",
+    ],
+    img: pricingImg3,
+  },
+];
 
 export const galleryImages = [
   {

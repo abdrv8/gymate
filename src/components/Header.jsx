@@ -20,6 +20,7 @@ const Header = () => {
       </nav>
       <div className="right">
         <i className="fa-regular fa-user"></i>
+        {/* TODO: add functionality to open about side menu */}
         <i className="fa-regular fa-chart-bar"></i>
         <div className="join-class">
           <i className="fa-solid fa-plus"></i>

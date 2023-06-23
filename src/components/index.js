@@ -8,6 +8,7 @@ import Trainers from "./Trainers";
 import Testimonials from "./Testimonials";
 import Gallery from "./Gallery";
 import BmiCalc from "./BmiCalc";
+import Pricing from "./Pricing";
 
 export {
   Header,
@@ -20,4 +21,5 @@ export {
   Testimonials,
   Gallery,
   BmiCalc,
+  Pricing,
 };

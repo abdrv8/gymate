@@ -8,6 +8,7 @@ import {
   Testimonials,
   Gallery,
   BmiCalc,
+  Pricing,
 } from "../components";
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Testimonials />
       <Gallery />
       <BmiCalc />
+      <Pricing />
     </div>
   );
 };

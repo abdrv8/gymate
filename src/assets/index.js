@@ -66,6 +66,12 @@ import img4 from "./gallery/img4.jpg";
 import img5 from "./gallery/img5.jpg";
 // bmi calc
 import bmiBg from "./bmi/background.jpg";
+// pricing
+import pricingImg1 from "./pricing/img1.jpg";
+import pricingImg2 from "./pricing/img2.jpg";
+import pricingImg3 from "./pricing/img3.jpg";
+import dumbbellBg from "./pricing/bg-dumbell.png";
+import noDaysOff from "./pricing/bg-text.png";
 
 export {
   logoWhite,
@@ -129,4 +135,9 @@ export {
   img4,
   img5,
   bmiBg,
+  pricingImg1,
+  pricingImg2,
+  pricingImg3,
+  dumbbellBg,
+  noDaysOff,
 };
