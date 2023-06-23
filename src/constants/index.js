@@ -20,7 +20,49 @@ import {
   workoutWhite,
   yogaRed,
   yogaWhite,
+  trainer1,
+  trainer2,
+  trainer3,
 } from "../assets";
+
+export const trainers = [
+  {
+    id: "trainer1",
+    name: "John Lewis",
+    role: "Yoga Trainer",
+    image: trainer1,
+    handles: {
+      facebook: "",
+      twitter: "",
+      instagram: "",
+      email: "",
+    },
+  },
+  {
+    id: "trainer2",
+    name: "Jonathan Doe",
+    role: "Crossfit Trainer",
+    image: trainer2,
+    handles: {
+      facebook: "",
+      twitter: "",
+      instagram: "",
+      email: "",
+    },
+  },
+  {
+    id: "trainer3",
+    name: "Ana June",
+    role: "Personal Trainer",
+    image: trainer3,
+    handles: {
+      facebook: "",
+      twitter: "",
+      instagram: "",
+      email: "",
+    },
+  },
+];
 
 export const featuredClasses = [
   {

@@ -1,4 +1,5 @@
 import { ChooseUs, Featured, Header, Hero, WhoWeAre } from "../components";
+import Trainers from "../components/Trainers";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <WhoWeAre />
       <Featured />
       <ChooseUs />
+      <Trainers />
     </div>
   );
 };

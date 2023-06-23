@@ -40,6 +40,14 @@ import gymBag from "./chooseus/gym-bag.png";
 import chooseMainImg from "./chooseus/main-img.png";
 import playBtn from "./chooseus/play.png";
 import training from "./chooseus/training.png";
+// trainers
+import bgAttachment from "./trainers/bg-attachment.png";
+import dotBg from "./trainers/dot-bg.png";
+import shape from "./trainers/shape.png";
+import trainerBg from "./trainers/trainer-bg.png";
+import trainer1 from "./trainers/trainer1.png";
+import trainer2 from "./trainers/trainer2.png";
+import trainer3 from "./trainers/trainer3.png";
 
 export {
   logoWhite,
@@ -81,4 +89,11 @@ export {
   chooseMainImg,
   playBtn,
   training,
+  bgAttachment,
+  dotBg,
+  shape,
+  trainerBg,
+  trainer1,
+  trainer2,
+  trainer3,
 };
