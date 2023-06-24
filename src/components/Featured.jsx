@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import "./styles/Featured.scss";
 import { featuredClasses } from "../constants";
-import { Container } from "../layout/Container";
+import { Container } from "./index";
 import { useState } from "react";
 import { titleBg, ctaBg } from "../assets";
 

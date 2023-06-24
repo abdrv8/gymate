@@ -72,6 +72,8 @@ import pricingImg2 from "./pricing/img2.jpg";
 import pricingImg3 from "./pricing/img3.jpg";
 import dumbbellBg from "./pricing/bg-dumbell.png";
 import noDaysOff from "./pricing/bg-text.png";
+// call
+import callBg from "./call/background.jpg";
 
 export {
   logoWhite,
@@ -140,4 +142,5 @@ export {
   pricingImg3,
   dumbbellBg,
   noDaysOff,
+  callBg,
 };

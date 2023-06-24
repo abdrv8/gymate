@@ -1,5 +1,5 @@
 import "./styles/RecentBlogs.scss";
-import { Container } from "../layout/Container";
+import { Container } from "./index";
 import { recentBlogs } from "../constants";
 import { titleBg } from "../assets";
 

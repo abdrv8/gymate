@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import { dotBg, trainerBg, bgAttachment, shape, titleBg } from "../assets";
-import { Container } from "../layout/Container";
+import { Container } from "./index";
 import "./styles/Trainers.scss";
 import { trainers } from "../constants";
 

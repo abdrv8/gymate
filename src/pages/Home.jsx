@@ -10,6 +10,8 @@ import {
   BmiCalc,
   Pricing,
   RecentBlogs,
+  Call,
+  Footer,
 } from "../components";
 
 const Home = () => {
@@ -26,6 +28,8 @@ const Home = () => {
       <BmiCalc />
       <Pricing />
       <RecentBlogs />
+      <Call />
+      <Footer />
     </div>
   );
 };

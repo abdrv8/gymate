@@ -1,0 +1,48 @@
+.call {
+  height: 300px;
+  width: 100%;
+  color: white;
+  .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3rem;
+    .text {
+      h1 {
+        font-size: 2.4rem;
+      }
+      h2 {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        span {
+          color: var(--secondary-color);
+        }
+      }
+    }
+    a {
+      background: var(--secondary-color);
+      color: white;
+      padding: 15px 25px;
+      width: max-content;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 1rem;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.3s ease-in;
+      &:hover {
+        background: var(--secondary-color);
+        color: white;
+        opacity: 0.5;
+      }
+    }
+  }
+}

@@ -10,6 +10,8 @@ import Gallery from "./Gallery";
 import BmiCalc from "./BmiCalc";
 import Pricing from "./Pricing";
 import RecentBlogs from "./RecentBlogs";
+import Call from "./Call";
+import Footer from "./Footer";
 
 export {
   Header,
@@ -24,4 +26,6 @@ export {
   BmiCalc,
   Pricing,
   RecentBlogs,
+  Call,
+  Footer,
 };

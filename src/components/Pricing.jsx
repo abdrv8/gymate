@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import "./styles/Pricing.scss";
-import { Container } from "../layout/Container";
+import { Container } from "./index";
 import { pricingPlans } from "../constants";
 import { titleBg, noDaysOff, dumbbellBg } from "../assets";
 

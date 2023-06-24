@@ -9,7 +9,7 @@ import {
   bottleWater,
   gymBag,
 } from "../assets";
-import Container from "../layout/Container";
+import { Container } from "./index";
 
 const ChooseUs = () => {
   return (

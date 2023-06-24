@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./styles/Gallery.scss";
-import { Container } from "../layout/Container";
+import { Container } from "./index";
 import { galleryImages } from "../constants/index";
 import { bgIcon, titleBg } from "../assets";
 

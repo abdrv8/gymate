@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import "./styles/BmiCalc.scss";
-import { Container } from "../layout/Container";
+import { Container } from "./index";
 import { bmiBg } from "../assets";
 
 const BmiCalc = () => {

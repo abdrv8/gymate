@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    position: relative;
+    z-index: 1;
   }
   .nodaysoff {
     position: absolute;
@@ -22,7 +24,6 @@
     right: 0;
   }
   .top {
-    // top title styles
     @include topTitle();
   }
   .cards {
