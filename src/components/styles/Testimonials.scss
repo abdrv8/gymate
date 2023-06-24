@@ -6,10 +6,9 @@
   .content {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.5rem;
   }
   .title {
-    margin-bottom: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,21 +44,12 @@
     position: relative;
     .review {
       display: flex;
-      gap: 2rem;
-      background: var(--primary-color);
       color: white;
       height: 100%;
       width: 100%;
       position: relative;
-      .image {
-        position: absolute;
-        bottom: -7px;
-        left: 0;
-        width: 100%;
-        height: max-content;
-        img {
-          border-top-right-radius: 250px;
-        }
+      img {
+        object-fit: cover;
       }
       .text {
         display: flex;
@@ -67,24 +57,24 @@
         justify-content: center;
         gap: 1.4rem;
         padding: 0 2rem;
-        width: 60%;
         height: 100%;
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 1;
+        background: var(--primary-color);
         .message {
           font-style: italic;
           color: rgba(255, 255, 255, 0.64);
+          width: 60%;
         }
         img {
-          width: 70px;
+          width: 40px;
+        }
+        p {
         }
       }
       .shape {
         position: absolute;
         bottom: 0;
         right: 200px;
+        z-index: 1;
       }
     }
     .switch {

@@ -31,8 +31,8 @@
     flex-wrap: wrap;
     gap: 2rem;
     .card {
-      width: 360px;
       display: flex;
+      flex: 1;
       flex-direction: column;
       .top {
         height: 220px;

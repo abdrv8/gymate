@@ -15,9 +15,7 @@ import { testimonials } from "../constants";
 
 const Review = ({ name, image, position, company, message }) => (
   <div className="review">
-    <div className="image">
-      <img src={image} alt={name} />
-    </div>
+    <img src={image} alt={name} />
     <div className="text">
       <img src={quotes} alt="quotation mark" />
       <div className="message">&quot;{message}&quot;</div>
@@ -27,9 +25,6 @@ const Review = ({ name, image, position, company, message }) => (
           {position} of {company}
         </p>
       </div>
-    </div>
-    <div className="shape">
-      <img src={testimonialShape} alt="shape" />
     </div>
   </div>
 );
