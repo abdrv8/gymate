@@ -2,7 +2,81 @@
   height: 50vh;
   width: 100%;
   .content {
-    border: 1px solid black;
     height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & > div {
+      width: 18%;
+    }
+    .left {
+      width: 35%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      img {
+        width: 150px;
+      }
+      .desc {
+        color: grey;
+        font-size: 15px;
+      }
+      .icons {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        i {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(128, 128, 128, 0.201);
+          color: rgb(105, 103, 103);
+          font-size: 1.1rem;
+          cursor: pointer;
+          transition: all 0.3s ease-in;
+          &:hover {
+            background: var(--secondary-color);
+            color: white;
+          }
+        }
+      }
+      .copyright {
+        color: grey;
+        .dev {
+          display: flex;
+          gap: 0.5rem;
+          margin-top: 10px;
+          a {
+            color: var(--secondary-color);
+            text-decoration: underline;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .center,
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 1.3rem;
+      .title {
+        .line {
+          width: 70px;
+          height: 4px;
+          background: var(--secondary-color);
+        }
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        font-size: 1.1rem;
+        color: gray;
+        list-style: none;
+      }
+    }
   }
 }
