@@ -39,11 +39,21 @@ const Footer = () => {
               <div className="line"></div>
             </div>
             <ul>
-              <li>Fitness Classes</li>
-              <li>Aerobics Classes</li>
-              <li>Power Yoga</li>
-              <li>Learn Machines</li>
-              <li>Full-body Strength</li>
+              <a href="#">
+                <li>Fitness Classes</li>
+              </a>
+              <a href="#">
+                <li>Aerobics Classes</li>
+              </a>
+              <a href="#">
+                <li>Power Yoga</li>
+              </a>
+              <a href="#">
+                <li>Learn Machines</li>
+              </a>
+              <a href="#">
+                <li>Full-body Strength</li>
+              </a>
             </ul>
           </div>
           <div className="right">
