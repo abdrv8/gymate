@@ -1,0 +1,78 @@
+@import "shared";
+
+.recentblogs {
+  width: 100%;
+  height: max-content;
+  padding: 6rem 0;
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .top {
+      @include topTitle();
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      .card {
+        height: 400px;
+        width: 370px;
+        padding: 2.2rem 1.6rem;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        .date {
+          border: 1px solid var(--primary-color);
+          width: max-content;
+          padding: 0.4rem 0.8rem;
+          border-radius: 40px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .text {
+          h2 {
+            margin-bottom: 1.2rem;
+            color: black;
+            font-size: 1.26rem;
+            color: rgb(79, 78, 78);
+          }
+          p {
+            color: grey;
+            font-size: 15px;
+          }
+        }
+        a {
+          background: var(--secondary-color);
+          color: white;
+          padding: 15px 25px;
+          width: max-content;
+          text-transform: uppercase;
+          font-size: 15px;
+          font-weight: bold;
+          letter-spacing: 2px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          margin-top: 1rem;
+          position: relative;
+          cursor: pointer;
+          transition: all 0.3s ease-in;
+          &:hover {
+            background: var(--secondary-color);
+            color: white;
+            opacity: 0.5;
+          }
+          &:hover i {
+            color: white;
+          }
+          i {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

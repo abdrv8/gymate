@@ -9,6 +9,7 @@ import {
   Gallery,
   BmiCalc,
   Pricing,
+  RecentBlogs,
 } from "../components";
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
       <Gallery />
       <BmiCalc />
       <Pricing />
+      <RecentBlogs />
     </div>
   );
 };

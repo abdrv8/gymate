@@ -1,0 +1,26 @@
+@mixin topTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  .title {
+    position: relative;
+    p {
+      position: absolute;
+      top: 5px;
+      left: 45px;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+    }
+  }
+  .heading {
+    p {
+      font-size: 15px;
+      color: rgb(110, 107, 107);
+      margin: 1rem 0;
+    }
+  }
+}

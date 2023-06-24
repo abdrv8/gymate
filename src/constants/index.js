@@ -34,6 +34,30 @@ import {
   pricingImg3,
 } from "../assets";
 
+export const recentBlogs = [
+  {
+    id: 1,
+    title: "Yoga For Everyone in 2023",
+    excerpt:
+      "This is program designed to make the practice of yoga beneficial for people of all ages, abilities, and backgrounds.",
+    date: "22.03.2022",
+  },
+  {
+    id: 2,
+    title: "Getting Back Into CrossFit After Vacation",
+    excerpt:
+      "Learn how to ease back into your CrossFit routine after a vacation with tips and strategies for success.",
+    date: "13.09.2022",
+  },
+  {
+    id: 3,
+    title: "Meet Fitness Ambassador Grace",
+    excerpt:
+      "Get to know Grace, a fitness enthusiast and dedicated ambassador who is passionate about helping others reach their fitness goals.",
+    date: "28.06.2022",
+  },
+];
+
 export const pricingPlans = [
   {
     id: 1,
