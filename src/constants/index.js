@@ -29,10 +29,22 @@ import {
   img3,
   img4,
   img5,
+  img6,
+  img7,
+  img8,
   pricingImg1,
   pricingImg2,
   pricingImg3,
 } from "../assets";
+
+export const aboutGallery = [
+  { id: 1, img: img1 },
+  { id: 2, img: img2 },
+  { id: 4, img: img4 },
+  { id: 6, img: img6 },
+  { id: 7, img: img7 },
+  { id: 8, img: img8 },
+];
 
 export const recentBlogs = [
   {

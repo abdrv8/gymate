@@ -1,10 +1,14 @@
-@mixin topTitle {
+@mixin verticalFlex($gap) {
   display: flex;
   flex-direction: column;
+  gap: $gap;
+}
+
+@mixin topTitle {
+  @include verticalFlex(1rem);
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 1rem;
   .title {
     position: relative;
     p {

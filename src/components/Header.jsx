@@ -2,6 +2,10 @@ import "./styles/Header.scss";
 import { logoWhite } from "../assets";
 import { navLinks } from "../constants";
 
+const handleAbout = () => {
+  let aboutEl = document.querySelector(".about");
+  aboutEl.classList.toggle("active");
+};
 const Header = () => {
   return (
     <header className="header">
@@ -21,7 +25,7 @@ const Header = () => {
       <div className="right">
         <i className="fa-regular fa-user"></i>
         {/* TODO: add functionality to open about side menu */}
-        <i className="fa-regular fa-chart-bar"></i>
+        <i className="fa-regular fa-chart-bar" onClick={handleAbout}></i>
         <div className="join-class">
           <i className="fa-solid fa-plus"></i>
           <span>Join class now</span>

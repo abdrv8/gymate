@@ -12,6 +12,7 @@ import {
   RecentBlogs,
   Call,
   Footer,
+  About,
 } from "../components";
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
       <RecentBlogs />
       <Call />
       <Footer />
+      <About />
     </div>
   );
 };

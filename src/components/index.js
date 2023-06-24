@@ -12,6 +12,7 @@ import Pricing from "./Pricing";
 import RecentBlogs from "./RecentBlogs";
 import Call from "./Call";
 import Footer from "./Footer";
+import About from "./About";
 
 export {
   Header,
@@ -28,4 +29,5 @@ export {
   RecentBlogs,
   Call,
   Footer,
+  About,
 };
