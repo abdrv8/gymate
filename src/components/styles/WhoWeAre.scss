@@ -1,3 +1,5 @@
+@import "shared";
+
 .whoweare {
   height: max-content;
   width: 100%;
@@ -6,6 +8,7 @@
   .cards {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
     flex-wrap: wrap;
     top: -4rem;
@@ -44,8 +47,13 @@
     }
   }
   .bottom {
+    // border: 5px solid red;
     display: flex;
+    justify-content: center;
     gap: 3rem;
+    & > div {
+      // border: 5px solid cyan;
+    }
     .left {
       width: 50%;
       display: flex;
@@ -89,6 +97,7 @@
           border-right: 1px solid #bcbbbb;
           height: 200px;
           width: 210px;
+          padding: 0 0.6rem;
           &:last-child {
             border: none;
           }
@@ -172,6 +181,47 @@
           left: -20px;
           max-width: 530px;
         }
+      }
+    }
+  }
+}
+
+// media queries
+@media (max-width: 1090px) {
+  .whoweare {
+    .bottom {
+      @include verticalFlex(5rem);
+      justify-content: center;
+      align-items: center;
+      .left {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  .whoweare {
+    .bottom {
+      .left {
+        align-items: center;
+        .heading {
+          h2 {
+            font-size: 2rem;
+            line-height: 2.4rem;
+          }
+        }
+        .features {
+          flex-wrap: wrap;
+          // border: 3px solid green;
+          justify-content: center;
+          .feature {
+            border: none;
+          }
+        }
+      }
+      .right {
+        display: none;
       }
     }
   }
