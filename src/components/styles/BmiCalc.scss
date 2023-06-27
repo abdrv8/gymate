@@ -1,3 +1,5 @@
+@import "shared";
+
 @mixin spanStyle {
   span {
     color: var(--secondary-color);
@@ -83,6 +85,30 @@
       }
       i {
         color: white;
+      }
+    }
+  }
+}
+
+// media queries
+@media (max-width: 550px) {
+  .bmicalc {
+    .content {
+      .heading {
+        p {
+          width: 100%;
+        }
+      }
+      .inputs {
+        display: flex;
+        gap: 1rem;
+        input {
+          width: 100%;
+        }
+      }
+      .result {
+        @include verticalFlex(1rem);
+        @include spanStyle();
       }
     }
   }
