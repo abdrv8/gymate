@@ -1,3 +1,5 @@
+@import "shared";
+
 .gallery {
   width: 100%;
   height: max-content;
@@ -74,5 +76,12 @@
         }
       }
     }
+  }
+}
+
+// media queries
+@media (max-width: 550px) {
+  .gallery .content .cards {
+    @include verticalFlex(0.5rem);
   }
 }
