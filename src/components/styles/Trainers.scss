@@ -130,3 +130,20 @@
     }
   }
 }
+
+// media queries
+@media (max-width: 460px) {
+  .trainers {
+    .top {
+      .heading {
+        width: 100%;
+        h2 {
+          font-size: 1.8rem;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
