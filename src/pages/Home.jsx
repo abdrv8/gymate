@@ -1,7 +1,6 @@
 import {
   ChooseUs,
   Featured,
-  Header,
   Hero,
   WhoWeAre,
   Trainers,
@@ -11,14 +10,12 @@ import {
   Pricing,
   RecentBlogs,
   Call,
-  Footer,
   About,
 } from "../components";
 
 const Home = () => {
   return (
     <div className="home">
-      <Header />
       <Hero />
       <WhoWeAre />
       <Featured />
@@ -30,7 +27,6 @@ const Home = () => {
       <Pricing />
       <RecentBlogs />
       <Call />
-      <Footer />
       <About />
     </div>
   );

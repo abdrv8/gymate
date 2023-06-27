@@ -13,6 +13,7 @@ import RecentBlogs from "./RecentBlogs";
 import Call from "./Call";
 import Footer from "./Footer";
 import About from "./About";
+import Banner from "./Banner";
 
 export {
   Header,
@@ -30,4 +31,5 @@ export {
   Call,
   Footer,
   About,
+  Banner,
 };

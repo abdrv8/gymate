@@ -1,9 +1,13 @@
-import { Home } from "./pages";
+import { Footer, Header } from "./components";
+import { Home, Signup } from "./pages";
 
 function App() {
   return (
     <>
-      <Home />
+      <Header />
+      {/* <Home /> */}
+      <Signup />
+      <Footer />
     </>
   );
 }
