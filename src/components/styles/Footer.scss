@@ -1,5 +1,8 @@
+@import "shared";
+
 .footer {
-  height: 50vh;
+  height: max-content;
+  padding: 3rem 1rem;
   width: 100%;
   .content {
     height: 100%;
@@ -79,6 +82,23 @@
         font-size: 1.1rem;
         color: gray;
         list-style: none;
+      }
+    }
+  }
+}
+
+// media queries
+@media (max-width: 570px) {
+  .footer {
+    .content {
+      @include verticalFlex(2rem);
+      flex-direction: column-reverse;
+
+      & > div {
+        width: 100%;
+      }
+      .left {
+        width: 100%;
       }
     }
   }
