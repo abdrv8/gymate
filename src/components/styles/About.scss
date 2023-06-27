@@ -27,10 +27,8 @@
     img {
       width: 120px;
     }
-    i {
-      font-size: 2rem;
-      color: var(--secondary-color);
-      cursor: pointer;
+    .closeBtn {
+      @include closeBtnStyles();
     }
   }
   .about-gallery {

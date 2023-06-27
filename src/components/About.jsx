@@ -12,7 +12,7 @@ const About = () => {
     <div className="about">
       <header>
         <img src={logoBlack} alt="logo black" />
-        <i className="fa-solid fa-xmark" onClick={handleAbout}></i>
+        <i className="fa-solid fa-xmark closeBtn" onClick={handleAbout}></i>
       </header>
       <div className="text">
         <h2>About Us</h2>

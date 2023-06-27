@@ -28,3 +28,9 @@
     }
   }
 }
+
+@mixin closeBtnStyles($color: var(--secondary-color)) {
+  font-size: 2rem;
+  color: $color;
+  cursor: pointer;
+}
