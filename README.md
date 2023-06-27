@@ -17,7 +17,7 @@
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='[https://res.cloudinary.com/razaq/image/upload/v1687896917/gymate/gymateHome_j8fh1c.png](https://res.cloudinary.com/razaq/image/upload/v1687896917/gymate/gymateHome_j8fh1c.png)'/>
+<img src='https://res.cloudinary.com/razaq/image/upload/v1687896917/gymate/gymateHome_j8fh1c.png'/>
 
 </div>
 
