@@ -1,11 +1,11 @@
-import "./styles/Signup.scss";
+import "./styles/Login.scss";
 import { Banner } from "../components";
 import { Link } from "react-router-dom";
 
-const Signup = () => {
+const Login = () => {
   return (
     <>
-      <Banner title={"Sign Up"} />
+      <Banner title={"Sign In"} />
       <div className="wrapper">
         <div className="form">
           <div className="email">
@@ -22,9 +22,9 @@ const Signup = () => {
           </div>
           <div className="btn">Sign Up</div>
           <div className="text">
-            <p>Already have account?</p>
-            <Link to="/login">
-              <span>Sign In</span>
+            <p>New to Gymate?</p>
+            <Link to="/signup">
+              <span>Sign Up</span>
             </Link>
           </div>
         </div>
@@ -33,4 +33,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Login;

@@ -1,7 +1,6 @@
 # TODO:
 
-- pricing page
-- signup page
+- signup page (done)
 - social media preview
-- routing
+- routing (done)
 - README file

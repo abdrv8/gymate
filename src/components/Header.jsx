@@ -1,6 +1,7 @@
 import "./styles/Header.scss";
 import { logoWhite } from "../assets";
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const handleAbout = () => {
@@ -21,9 +22,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="left">
-        <a href="/">
+        <Link to="/">
           <img src={logoWhite} alt="logo" />
-        </a>
+        </Link>
       </div>
       <nav className="center">
         <i
@@ -32,7 +33,6 @@ const Header = () => {
           onClick={closeMobileMenu}
         ></i>
         {navLinks.map((link) => (
-          // TODO: href={`/${link.id}`}. Use Link tag from react-router-dom
           <a href="#" key={link.id} onClick={closeMobileMenu}>
             {link.title}
           </a>
@@ -44,7 +44,9 @@ const Header = () => {
           style={{ display: "none" }}
           onClick={toggleMobileMenu}
         ></i>
-        <i className="fa-regular fa-user"></i>
+        <Link to={"/signup"}>
+          <i className="fa-regular fa-user"></i>
+        </Link>
         <i className="fa-regular fa-chart-bar" onClick={handleAbout}></i>
         <div className="join-class">
           <i className="fa-solid fa-plus"></i>

@@ -42,7 +42,6 @@ const ChooseUs = () => {
               </p>
             </div>
             <div className="features">
-              {/* TODO: convert to component and store data in constant */}
               <div className="feature">
                 <div className="image">
                   <img src={training} alt="training" />
